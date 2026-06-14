@@ -1,0 +1,28 @@
+{
+    "career": [
+        {
+            "company": "Calpine Group",
+            "period": "2005 - 2015",
+            "title": "Principal Technical Lead",
+            "domain": "Scientific & Pharmaceutical Automation"
+        },
+        {
+            "company": "Cascade Revenue Management",
+            "period": "2015 - 2017",
+            "title": "Technical Project Manager",
+            "domain": "Healthcare Platforms & Revenue Management"
+        },
+        {
+            "company": "EcSolvo Solutions",
+            "period": "2017 - 2018",
+            "title": "Startup Founder & Chief Software Architect",
+            "domain": "Startup Founder & Chief Software Architect"
+        },
+        {
+            "company": "BEO Software",
+            "period": "2018 - Present",
+            "title": "Principal Engineer",
+            "domain": "Surface Science, Scientific Instrumentation & Industrial Analytics"
+        }
+    ]
+}

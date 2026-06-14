@@ -1,0 +1,57 @@
+{
+  "skills": {
+    "architecture": [
+      "Solution Architecture",
+      "System Design",
+      "Microservices",
+      "Domain-Driven Design (DDD)",
+      "Design Patterns",
+      "Enterprise Architecture"
+    ],
+    "leadership": [
+      "Technical Leadership",
+      "Team Mentoring",
+      "Agile Methodologies",
+      "Cross-functional Collaboration",
+      "International Collaboration"
+    ],
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Enterprise Platforms",
+      "Industrial IoT Platforms"
+    ],
+    "languages": [
+      "C#",
+      "TypeScript",
+      "JavaScript",
+      "C++",
+      "SQL"
+    ],
+    "frameworks": [
+      ".NET Core",
+      "WPF",
+      "Vue.js",
+      "Node.js",
+      "React"
+    ],
+    "databases": [
+      "Microsoft SQL Server",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis"
+    ],
+    "cloud": [
+      "Azure",
+      "AWS",
+      "Docker",
+      "CI/CD Pipelines"
+    ],
+    "scientific_technologies": [
+      "Scientific Instrumentation Software",
+      "Laboratory Automation",
+      "Industrial Automation Systems",
+      "Healthcare Platform Architectures"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "KRÜSS",
+      "domain": "Scientific Instrumentation & Surface Science Software",
+      "logo": "kruss"
+    },
+    {
+      "title": "HAUNI AREO",
+      "domain": "Industrial Analytics Platform",
+      "logo": "hauni"
+    },
+    {
+      "title": "SOTAX TPW / APW",
+      "domain": "Laboratory Automation Platform",
+      "logo": "sotax"
+    },
+    {
+      "title": "Medgen Solutions",
+      "domain": "Healthcare Platform",
+      "logo": "medgen"
+    },
+    {
+      "title": "DDS",
+      "domain": "Dispensing & Inventory System",
+      "logo": "dds"
+    },
+    {
+      "title": "Blue Penguin",
+      "domain": "Personal Project",
+      "logo": "bluepenguin"
+    }
+  ]
+}
