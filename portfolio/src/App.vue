@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
+import ProfessionalPresence from './components/ProfessionalPresence.vue';
 import CareerTimeline from './components/CareerTimeline.vue';
 import WhatIDo from './components/WhatIDo.vue';
 import SelectedProjects from './components/SelectedProjects.vue';
@@ -15,6 +16,7 @@ const showSelectedProjects = import.meta.env.VITE_SHOW_SELECTED_PROJECTS !== 'fa
     <Header />
     <main>
       <Hero />
+      <ProfessionalPresence />
       <CareerTimeline />
       <WhatIDo />
       <SelectedProjects v-if="showSelectedProjects" />

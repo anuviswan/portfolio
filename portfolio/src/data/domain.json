@@ -1,0 +1,20 @@
+{
+    "domains": [
+        {
+            "domain": "Life Sciences & Laboratory Automation",
+            "description": "Pharmaceutical, biotechnology and laboratory instrumentation systems"
+        },
+        {
+            "domain": "Surface Science & Analytical Measurement",
+            "description": "Scientific instrumentation and measurement software platforms"
+        },
+        {
+            "domain": "Industrial Manufacturing & Analytics",
+            "description": "Production intelligence, quality systems and operational analytics"
+        },
+        {
+            "domain": "Healthcare",
+            "description": "Clinical workflows, healthcare operations and dispensing solutions"
+        }
+    ]
+}

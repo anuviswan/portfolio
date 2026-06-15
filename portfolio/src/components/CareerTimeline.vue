@@ -105,8 +105,8 @@ const getTimelineTheme = (companyName: string) => {
                 </svg>
 
                 <!-- Microscope / Science -->
-                <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v13.01a4.5 4.5 0 001.072 2.913l2.056 2.467A.75.75 0 0014 21.3V3.104M9.75 3.104c-.394.025-.783.085-1.166.177M9.75 3.104h4.5M14 3.104c.394.025.783.085 1.166.177m0 0a12.062 12.062 0 01-2.332.354M9.003 20.162A9.003 9.003 0 019 18v-4.5m6 4.5c0 .733-.088 1.445-.253 2.128M9.75 16.5h4.5" />
+                <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18h12M12 18v3m0-6v-3m0 0a3 3 0 10-6 0v3m6-3h3.5a1.5 1.5 0 011.5 1.5V18M10 9l4 2.5M12 4.5a2.5 2.5 0 10-5 0v3h5v-3z" />
                 </svg>
               </div>
             </div>
