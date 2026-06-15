@@ -6,6 +6,8 @@ import WhatIDo from './components/WhatIDo.vue';
 import SelectedProjects from './components/SelectedProjects.vue';
 import CallToAction from './components/CallToAction.vue';
 import Footer from './components/Footer.vue';
+
+const showSelectedProjects = import.meta.env.VITE_SHOW_SELECTED_PROJECTS !== 'false';
 </script>
 
 <template>
@@ -15,7 +17,7 @@ import Footer from './components/Footer.vue';
       <Hero />
       <CareerTimeline />
       <WhatIDo />
-      <SelectedProjects />
+      <SelectedProjects v-if="showSelectedProjects" />
       <CallToAction />
     </main>
     <Footer />
