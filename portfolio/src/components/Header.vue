@@ -15,11 +15,6 @@ const showDownloadResume = import.meta.env.VITE_SHOW_DOWNLOAD_RESUME !== 'false'
       
       <nav class="nav-menu">
         <a href="#home" class="nav-link active">Home</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#experience" class="nav-link">Experience</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#writing" class="nav-link">Writing</a>
-        <a href="#contact" class="nav-link">Contact</a>
       </nav>
 
       <a v-if="showDownloadResume" href="/resume.pdf" download class="btn btn-outline download-btn">
