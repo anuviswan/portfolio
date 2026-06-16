@@ -175,6 +175,7 @@ const getTimelineTheme = (companyName: string) => {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
 }
 
 .timeline-node {
@@ -200,6 +201,7 @@ const getTimelineTheme = (companyName: string) => {
   text-align: left;
   width: 100%;
   min-height: 250px;
+  flex: 1;
   display: flex;
   flex-direction: column;
   position: relative;
