@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// Presentational component: receives no props, emits standard actions if necessary.
+const showDownloadResume = import.meta.env.VITE_SHOW_DOWNLOAD_RESUME !== 'false';
 </script>
 
 <template>
@@ -15,14 +15,9 @@
       
       <nav class="nav-menu">
         <a href="#home" class="nav-link active">Home</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#experience" class="nav-link">Experience</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#writing" class="nav-link">Writing</a>
-        <a href="#contact" class="nav-link">Contact</a>
       </nav>
 
-      <a href="/resume.pdf" download class="btn btn-outline download-btn">
+      <a v-if="showDownloadResume" href="/resume.pdf" download class="btn btn-outline download-btn">
         <span>Download Resume</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="icon">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />

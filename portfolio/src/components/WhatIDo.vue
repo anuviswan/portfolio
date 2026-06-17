@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="what-i-do-section">
+  <section id="about" class="what-i-do-section">
     <div class="container text-center">
       <h2 class="section-title">What I Do</h2>
       <p class="section-subtitle">Architecture. Leadership. Delivery.</p>
@@ -12,8 +12,13 @@
         <!-- Solution Architecture -->
         <div class="service-item">
           <div class="service-icon puzzle">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75L16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8">
+              <path d="M19.439 10.329C19.89 9.38 20.485 8.5 21.5 8.5a2.5 2.5 0 0 1 0 5c-1.015 0-1.61-.88-2.061-1.829a2.5 2.5 0 0 0-4.378 0c-.451.95-1.046 1.83-2.061 1.83a2.5 2.5 0 0 1 0-5c1.015 0 1.61.88 2.061 1.829a2.5 2.5 0 0 0 4.378 0Z" />
+              <path d="M10.329 19.439C9.38 19.89 8.5 20.485 8.5 21.5a2.5 2.5 0 0 1-5 0c0-1.015.88-1.61 1.829-2.061a2.5 2.5 0 0 0 0-4.378c-.95-.451-1.83-1.046-1.83-2.061a2.5 2.5 0 0 1 5 0c0 1.015-.88 1.61-2.061 1.829a2.5 2.5 0 0 0 0 4.378Z" />
+              <path d="M15 3h1.5a2.5 2.5 0 0 1 2.5 2.5V7" />
+              <path d="M19 15v1.5A2.5 2.5 0 0 1 16.5 19H15" />
+              <path d="M9 19H7.5A2.5 2.5 0 0 1 5 16.5V15" />
+              <path d="M5 9V7.5A2.5 2.5 0 0 1 7.5 5H9" />
             </svg>
           </div>
           <h3 class="service-title">Solution Architecture</h3>
@@ -23,8 +28,10 @@
         <!-- Platform Engineering -->
         <div class="service-item">
           <div class="service-icon layers">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m11.142 0L21.75 12l-4.179-2.25M12 5.75v12.5M3.75 18h16.5M3.75 6h16.5" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8">
+              <polygon points="12 2 2 7 12 12 22 7 12 2" />
+              <polyline points="2 17 12 22 22 17" />
+              <polyline points="2 12 12 17 22 12" />
             </svg>
           </div>
           <h3 class="service-title">Platform Engineering</h3>
@@ -34,19 +41,25 @@
         <!-- Technical Leadership -->
         <div class="service-item">
           <div class="service-icon people">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
             </svg>
           </div>
           <h3 class="service-title">Technical Leadership</h3>
-          <p class="service-desc">Lead engineering teams and drive quality, performance and growth.</p>
+          <p class="service-desc">Lead engineering teams and drive quality, performance and business value.</p>
         </div>
 
         <!-- Modernization -->
         <div class="service-item">
           <div class="service-icon sync">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8">
+              <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
+              <path d="M16 3h5v5" />
+              <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" />
+              <path d="M8 21H3v-5" />
             </svg>
           </div>
           <h3 class="service-title">Modernization</h3>
@@ -56,9 +69,10 @@
         <!-- Problem Solving -->
         <div class="service-item">
           <div class="service-icon bulb">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m11.314 11.314l.707.707M12 5a7 7 0 100 14 7 7 0 000-14z" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8">
+              <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A5 5 0 0 0 8 8c0 1 .4 2.5 1.5 3.5.7.8 1.3 1.5 1.5 2.5" />
+              <path d="M9 18h6" />
+              <path d="M10 22h4" />
             </svg>
           </div>
           <h3 class="service-title">Problem Solving</h3>
@@ -93,7 +107,7 @@
 .services-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 24px;
+  gap: 0;
 }
 
 .service-item {
@@ -101,9 +115,13 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  padding: 24px;
-  border-radius: var(--radius-md);
+  padding: 24px 32px;
   transition: var(--transition);
+  position: relative;
+}
+
+.service-item:not(:last-child) {
+  border-right: 1px solid var(--border);
 }
 
 .service-item:hover {
@@ -137,14 +155,30 @@
 @media (max-width: 992px) {
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
+  }
+  
+  .service-item {
+    border-right: none !important;
+    border-bottom: 1px solid var(--border);
+    padding: 32px 24px;
+  }
+  
+  .service-item:nth-last-child(-n+2) {
+    border-bottom: none;
   }
 }
 
 @media (max-width: 576px) {
   .services-grid {
     grid-template-columns: 1fr;
-    gap: 32px;
+  }
+  
+  .service-item {
+    border-bottom: 1px solid var(--border);
+  }
+  
+  .service-item:last-child {
+    border-bottom: none;
   }
 }
 </style>

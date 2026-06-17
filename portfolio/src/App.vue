@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
+import ProfessionalPresence from './components/ProfessionalPresence.vue';
 import CareerTimeline from './components/CareerTimeline.vue';
 import WhatIDo from './components/WhatIDo.vue';
 import SelectedProjects from './components/SelectedProjects.vue';
 import CallToAction from './components/CallToAction.vue';
 import Footer from './components/Footer.vue';
+
+const showSelectedProjects = import.meta.env.VITE_SHOW_SELECTED_PROJECTS !== 'false';
 </script>
 
 <template>
@@ -13,9 +16,10 @@ import Footer from './components/Footer.vue';
     <Header />
     <main>
       <Hero />
+      <ProfessionalPresence />
       <CareerTimeline />
       <WhatIDo />
-      <SelectedProjects />
+      <SelectedProjects v-if="showSelectedProjects" />
       <CallToAction />
     </main>
     <Footer />
