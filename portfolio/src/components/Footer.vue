@@ -6,23 +6,6 @@ const scrollToTop = () => {
   });
 };
 
-const email = import.meta.env.VITE_EMAIL || '';
-const linkedin = import.meta.env.VITE_LINKEDIN || '';
-const github = import.meta.env.VITE_GITHUB || '';
-const csharpcorner = import.meta.env.VITE_CSHARPCORNER || '';
-
-const cleanUrlForDisplay = (url: string) => {
-  if (!url) return '';
-  return url.replace(/^(https?:\/\/)?(www\.)?/, '');
-};
-
-const getHref = (url: string) => {
-  if (!url) return '#';
-  if (url.startsWith('http://') || url.startsWith('https://')) {
-    return url;
-  }
-  return `https://${url}`;
-};
 </script>
 
 <template>
