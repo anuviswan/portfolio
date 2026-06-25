@@ -9,7 +9,7 @@ const showDownloadResume = import.meta.env.VITE_SHOW_DOWNLOAD_RESUME !== 'false'
         <div class="logo-badge">AV</div>
         <div class="logo-text">
           <span class="logo-name">Anu Viswan</span>
-          <span class="logo-title">Lead Software Architect /  Principal Engineer</span>
+          <span class="logo-title">Principal Engineer</span>
         </div>
       </div>
       
