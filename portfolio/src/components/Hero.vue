@@ -24,7 +24,7 @@ const getDomainIcon = (domainName: string) => {
     
     <div class="container hero-container">
       <div class="hero-left">
-        <span class="hero-tag">Principal Engineer</span>
+        <span class="hero-tag">PRINCIPAL ENGINEER</span>
         <h1 class="hero-title">
           Building Software That <br />
           <span class="highlight">Solves Real Problems</span>
